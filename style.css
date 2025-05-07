@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  border: 0;
+}
+
+nav {
+  background-color: #fdf2e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 48px;
+}
+
+/* Globales */
+
+.boton-principal {
+  color: white;
+  background-color: #e67e22;
+  padding: 12px 24px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.boton-principal:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.boton-principal:active {
+  transform: scale(0.9);
+  transition: all 0.5s;
+}
+
+.nav-logo {
+  width: 165px;
+}
+
+.nav-lista {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav-elemento {
+  font-size: 18px;
+  color: #333333;
+  font-weight: 500;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  background-color: #fdf2e9;
+  padding: 20px 48px;
+}
+
+.hero-imagen {
+  width: 570px;
+}
+
+.hero-contenedor {
+  width: 40%;
+}
+
+.hero-titulo {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.hero-subtitulo {
+  font-size: 20px;
+  margin-bottom: 48px;
+  font-weight: lighter;
+}
+
+/* Titulo 52px, bold, margen abajo de 32px */
+/* Subtitulo 20px, margin abajo de 48px  */
